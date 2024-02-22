@@ -30,10 +30,6 @@ div img{
     height: 150px;
 }
 
-div strong{
-    color:rgb(81, 187, 201);
-}
-
 div h1{
     font-size: 24px;
     line-height: 36px;
@@ -41,3 +37,29 @@ div h1{
     margin-bottom: 4px;
 }
 
+div strong{
+    color: #C4F82A;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div p{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div a + a{
+    margin-top: 16px;
+}
+
+div a{
+    display: block;
+    text-decoration: none ;
+    background-color: #333333;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+}
